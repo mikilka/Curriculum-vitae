@@ -103,3 +103,12 @@ aside {
 	width: 35%;
 	background-color: #434244;
 }
+
+.avatar {
+	width: 222px;
+	height: 222px;
+	margin: 25px auto;
+	border-radius: 50%;
+	background-image: url('../images/photo.PNG');
+	background-size: cover;
+}
