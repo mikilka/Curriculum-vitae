@@ -93,8 +93,13 @@ ul p {
 	padding-left: 0;
 }
 
+.container {
+	overflow: hidden;
+	background-color: #434244;
+}
+
 aside {
-	float: right;
+	float: left;
 	width: 35%;
 	background-color: #434244;
 }
