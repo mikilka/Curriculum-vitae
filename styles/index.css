@@ -1,0 +1,100 @@
+header {
+	background-color: #75C2E6;
+	color: #FFF;
+	text-align: right;
+	padding: 30px 30px 30px 0;
+}
+
+h1 {
+	font-family: 'Myriad Pro', Arial, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: -1.5px 1.5px .5px rgba(235, 235, 235, 1);
+}
+
+header div {
+	padding-top: 10px;
+	font-family: 'Market Deco', Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.divider {
+	height: 12px;
+	background-color: #000;
+}
+
+main {
+	float: left;
+	width: 65%;
+	background-color: #525354;
+}
+
+h3 {
+	display: block;
+	padding: 20px 35px;
+	font-family: 'Marion', Arial, sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #74C2E6;
+}
+
+main p {
+	display: block;
+	padding: 0 225px 15px 35px;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'Myriad Pro', Arial, sans-serif;
+	color: #FFF;
+}
+
+.paragraph-title {
+	display: block;
+	padding: 15px 35px;
+	font-family: 'Myriad Pro', Arial, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #FFF;
+}
+
+.paragraph-title span {
+	font-weight: bold;
+}
+
+h3::after {
+	display: inline-block;
+	content: '';
+	height: 2px;
+	margin-left: 5%;
+	vertical-align: middle;
+	background-color: #FAF8E0;
+}
+
+.education h3::after {
+	width: 65%;
+}
+
+.job h3::after {
+	width: 55%;
+}
+
+.soft-skills h3::after {
+	width: 50%;
+}
+
+.soft-skills ul {
+	padding-left: 55px;
+	list-style-type: circle;
+	color: #FFF;
+}
+
+ul p {
+	padding-left: 0;
+}
+
+aside {
+	float: right;
+	width: 35%;
+	background-color: #434244;
+}
